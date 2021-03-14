@@ -3,12 +3,12 @@ export default function Footer() {
   return (
     <div className="footer bs-bb bg-white">
       <div className="footer_primary bs-bb">
-        <div className="container bs-bb">
+        <div className="container container-sm bs-bb">
           <div className="footer_content d-flex flex-wrap">
-            <div className="footer_logo flex-25 pl-15 pr-15 bs-bb">
+            <div className="footer_logo flex-25 flex-100-md pl-15 pr-15 bs-bb">
               <img className="mb-30" src={FooterLogo} alt="logo" />
             </div>
-            <div className="footer_widget pl-15 pr-15 mb-30 flex-16 bs-bb">
+            <div className="footer_widget pl-15 pr-15 mb-30 flex-16 flex-md-30 flex-50-sm flex-100-es bs-bb">
               <h6 className="footer_widget_title text-blue">Company</h6>
 
               <div className="footer_widget_content">
@@ -46,7 +46,7 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="footer_widget pl-15 pr-15 mb-30 flex-16 bs-bb">
+            <div className="footer_widget pl-15 pr-15 mb-30 flex-16 flex-md-30 flex-50-sm flex-100-es bs-bb">
               <h6 className="footer_widget_title text-blue">Solutions</h6>
 
               <div className="footer_widget_content">
@@ -84,9 +84,8 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="footer_widget pl-15 pr-15 mb-30 flex-16 bs-bb">
+            <div className="footer_widget pl-15 pr-15 mb-30 flex-16 flex-md-30 flex-50-sm flex-100-es bs-bb">
               <h6 className="footer_widget_title text-blue">Resources</h6>
-
               <div className="footer_widget_content">
                 <ul className="li-style-none">
                   <li>
@@ -117,12 +116,12 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="footer_news_letter flex-25 bs-bb pl-15 pr-15">
+            <div className="footer_news_letter flex-25 flex-50-md flex-100-es bs-bb pl-15 pr-15">
               <h6 className="footer_widget_title text-blue">News Letter</h6>
               <div className="footer_form mb-20">
                 <input
                   id="footer_email"
-                  className="footer-email text-left ol-none bs-bb"
+                  className="footer-email w-100 text-left ol-none bs-bb"
                   placeholder="Your Email Address"
                 ></input>
               </div>
@@ -141,9 +140,9 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer_bottom">
-        <div className="container bs-bb">
-          <div className="footer_bottom_content d-flex item-center">
-            <div className="copy_right flex-41 pl-15 pr-15 bs-bb">
+        <div className="container container-sm bs-bb">
+          <div className="footer_bottom_content d-flex flex-wrap item-center">
+            <div className="copy_right flex-41 flex-100-sm pl-15 pr-15 bs-bb">
               <span className="text-blue">
                 © 2020 Smart Data, All Rights Reserved. With Love by
               </span>
@@ -151,12 +150,12 @@ export default function Footer() {
                 7oroof.com
               </a>
             </div>
-            <div className="footer_scrollup_btn pl-15 pr-15 bs-bb">
+            <div className="footer_scrollup_btn flex-100-sm pl-15 pr-15 bs-bb">
               <button className="scrlup-btn ol-none d-flex justify-center">
                 <i className="arrow-up text-center"></i>
               </button>
             </div>
-            <div className="flex-41 pr-15 pl-15 bs-bb d-flex item-center jutify-content-end">
+            <div className="flex-41 flex-100-sm pr-15 pl-15 bs-bb d-flex flex-wrap item-center jutify-content-end">
               <ul className="social_ul li-style-none d-flex item-center bs-bb">
                 <li>
                   {" "}

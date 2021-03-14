@@ -14,7 +14,7 @@ export default function SimpleSlider() {
   return (
     <Slider {...settings} className="slider">
       <div className="slider_card1">
-        <div className="container">
+        <div className="container container-sm">
           <div className="slide_content_div">
             <h2 className="slide-title">
               We Run All Kinds Of IT Services That Vow Your Success

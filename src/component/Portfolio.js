@@ -5,7 +5,7 @@ export default function PortfolioSection() {
   return (
     <div className="portfolio_section w-100 pb-40 bg-gray">
       {" "}
-      <div className="container bs-bb">
+      <div className="container container-sm bs-bb">
         <div className="pf_heading_box pr-15 pl-15">
           <div className="pf_heading d-flex item-center">
             <div className="heading_line bs-bb"></div>
@@ -13,8 +13,8 @@ export default function PortfolioSection() {
           </div>
           <h3 className="title text-blue text-left">Latest Case Studies</h3>
         </div>
-        <div className=" pf_card_box d-flex flex-wrap">
-          <div className="pf_card">
+        <div className=" pf_card_box d-flex flex-wrap-md justify-center">
+          <div className="pf_card flex-30 flex-46-md flex-100-es">
             <div className="pf_card_img">
               <img className="w-100 h-100" src={Pfc1} alt="pf"></img>
             </div>
@@ -43,7 +43,7 @@ export default function PortfolioSection() {
               </a>
             </div>
           </div>
-          <div className="pf_card">
+          <div className="pf_card flex-30 flex-46-md flex-100-es">
             <div className="pf_card_img">
               <img className="w-100 h-100" src={Pfc2} alt="pf"></img>
             </div>
@@ -72,7 +72,7 @@ export default function PortfolioSection() {
               </a>
             </div>
           </div>
-          <div className="pf_card">
+          <div className="pf_card flex-30 flex-46-md flex-100-es">
             <div className="pf_card_img">
               <img className="w-100 h-100" src={Pfc3} alt="pf"></img>
             </div>

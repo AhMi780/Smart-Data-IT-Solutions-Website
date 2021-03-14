@@ -4,7 +4,7 @@ import IconCloud from "./../assets/images/IT_icons/cloud.png";
 export default function ITsection() {
   return (
     <div className="it_section w-100 bg-gray">
-      <div className="container bs-bb">
+      <div className="container container-sm bs-bb">
         <div className="It_content d-flex flex-column item-center justify-center">
           <div className="mb-40">
             <div className="IT_heading pr-15 pl-15 w-100 d-flex item-center bs-bb">
@@ -14,12 +14,12 @@ export default function ITsection() {
               </h2>
             </div>
             <div className="d-flex w-100 flex-wrap">
-              <div className="IT_heading_box pl-15 pr-15 bs-bb">
+              <div className="IT_heading_box flex-100-md pl-15 pr-15 bs-bb">
                 <h3 className="title text-blue mb-20">
                   Offering the latest software and IT services to our customers!
                 </h3>
               </div>
-              <div className="flex-41 pl-15 pr-15 bs-bb">
+              <div className="flex-41 flex-100-md pl-15 pr-15 bs-bb">
                 <p className="desc text-grey">
                   Improve efficiency, leverage tech, and provide better customer
                   experiences with the modern technology services available
@@ -29,8 +29,8 @@ export default function ITsection() {
               </div>
             </div>
           </div>
-          <div className="IT_cards_box d-flex flex-wrap justify-center">
-            <div className="IT_card bg-white">
+          <div className="IT_cards_box d-flex justify-center flex-wrap-md">
+            <div className="IT_card flex-30 bg-white">
               <div className="IT_card_content">
                 {" "}
                 <div className="IT_icon mb-20">
@@ -59,7 +59,7 @@ export default function ITsection() {
                 </a>{" "}
               </div>
             </div>
-            <div className="IT_card bg-white">
+            <div className="IT_card flex-30 bg-white">
               <div className=" IT_card_content">
                 {" "}
                 <div className="IT_icon mb-20">
@@ -89,7 +89,7 @@ export default function ITsection() {
                 </a>{" "}
               </div>
             </div>
-            <div className="IT_card bg-white">
+            <div className="IT_card flex-30 bg-white">
               <div className=" IT_card_content">
                 {" "}
                 <div className="IT_icon mb-20">
@@ -121,7 +121,7 @@ export default function ITsection() {
             </div>
           </div>
           <div className="explore_servecis w-100">
-            <div className="d-flex w-100 pl-15 pr-15">
+            <div className="d-flex pl-15 pr-15 justify-center-md">
               <a
                 className="explore_btn no-underline d-flex justify-center item-center text-white"
                 href="explore"

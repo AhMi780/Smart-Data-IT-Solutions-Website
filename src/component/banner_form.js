@@ -2,20 +2,20 @@ export default function Banner() {
   return (
     <div className="banner_form ps-relative bs-bb mb-20">
       <div className="container_banner bs-bb">
-        <div className="d-flex w-100">
-          <div className="flex-0-0-50 bs-bb pr-15 pl-15">
+        <div className="d-flex w-100 flex-wrap">
+          <div className="flex-0-0-50 flex-100-md bs-bb pr-15 pl-15">
             <div className="banner_heading bs-bb">
               <h3 className="banner_heading_title mb-30 text-white">
                 Satisfied Users Over The Globe
               </h3>
             </div>
-            <p className="banner_desc text-white">
+            <p className="banner_desc mb-30 text-white">
               If you’re looking for a rewarding career and the chance to make an
               impact, you’ve come to the right place. We will transform your
               business through our techniques!
             </p>
           </div>
-          <div className="flex-0-0-50 bs-bb pr-15 pl-15">
+          <div className="flex-0-0-50 flex-100-md bs-bb pr-15 pl-15">
             <div className="contact_panel bs-bb">
               <div className="d-flex flex-column">
                 <div className="panel_heading bs-bb">
@@ -29,7 +29,7 @@ export default function Banner() {
                   </p>
                 </div>
                 <div className="panel_input_box d-flex w-100 justify-between flex-wrap">
-                  <div className="panel_input mb-30 bs-bb flex-47">
+                  <div className="panel_input mb-30 bs-bb flex-47 flex-100-es">
                     <input
                       className="input-box bs-bb ol-none"
                       id="contactName"
@@ -37,7 +37,7 @@ export default function Banner() {
                       placeholder="Name"
                     ></input>
                   </div>
-                  <div className="panel_input mb-30 bs-bb flex-47">
+                  <div className="panel_input mb-30 bs-bb flex-47 flex-100-es">
                     <input
                       className="input-box bs-bb ol-none"
                       id="Email"
@@ -47,7 +47,7 @@ export default function Banner() {
                   </div>
                 </div>
                 <div className="panel_input_box d-flex w-100 justify-between flex-wrap">
-                  <div className="panel_input mb-30 bs-bb flex-47">
+                  <div className="panel_input mb-30 bs-bb flex-47 flex-100-es">
                     <input
                       className="input-box bs-bb ol-none"
                       id="Inquiry"
@@ -55,7 +55,7 @@ export default function Banner() {
                       placeholder="Inquiry"
                     ></input>
                   </div>
-                  <div className="panel_input mb-30 bs-bb flex-47">
+                  <div className="panel_input mb-30 bs-bb flex-47 flex-100-es">
                     <input
                       className="input-box bs-bb ol-none"
                       id="Phone"

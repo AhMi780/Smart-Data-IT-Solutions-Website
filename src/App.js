@@ -10,26 +10,20 @@ import Footer from "./component/footer";
 function App() {
   const sd = () => {};
   return (
-    <>
-      <div className=" ps-absolute index-1 w-100">
+    <div className="">
+      <div className=" ps-absolute index-1 w-100 ">
         <Header />
       </div>
-      <div className="slider_comp">
+      <div className="slider_comp ">
         <SimpleSlider name={sd} />
       </div>
-      <div className="second_comp">
-        <Second />
-      </div>
-      <div>
-        <ITsection />
-      </div>
-      <div>
-        <TechSection />
-        <PortfolioSection />
-        <Banner />
-        <Footer />
-      </div>
-    </>
+      <Second />
+      <ITsection />
+      <TechSection />
+      <PortfolioSection />
+      <Banner />
+      <Footer />
+    </div>
   );
 }
 
