@@ -333,13 +333,47 @@
     width: 100%;
   }
 }
-.main_container {
-  /* width: 1366px; */
-}
 .container {
   margin: auto;
   max-width: 1200px;
   width: 100%;
+}
+
+.sticky_nav{
+  position: fixed;
+  display: flex;
+ top: 0;
+ right: 0;
+ left: 0;
+ width: 100%;
+ z-index: 1040;
+ height: 80px;
+ max-height: 80px;
+ border-bottom: 0 ;
+ background-color: #ffffff;
+ color: #0e2b3d;
+ box-shadow: 0 3px 4px rgba(0, 0, 0, 0.07);
+transition: height 2s;
+}
+.sticky_nav .text-white {
+  color: #0e2b3d;
+}
+.sticky_nav .text-white-lg{
+  color: #012a3e;
+}
+.sticky_nav .dark-sticky{
+  display: block;
+}
+.sticky_nav .light-sticky{
+  display: none;
+}
+.sticky_nav .nav_quote_btn{
+  background-color: #47a145;
+  color: #ffffff;
+}
+.nav_quote_btn:hover{
+  background-color: #012a3e;
+  color: white;
 }
 .header_nav {
   height: 100px;

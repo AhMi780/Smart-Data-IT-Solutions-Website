@@ -14,9 +14,7 @@ function App() {
       <div className=" ps-absolute index-1 w-100 ">
         <Header />
       </div>
-      <div className="slider_comp ">
-        <SimpleSlider name={sd} />
-      </div>
+      <SimpleSlider name={sd} />
       <Second />
       <ITsection />
       <TechSection />
