@@ -1,6 +1,6 @@
 export default function Banner() {
   return (
-    <div className="banner_form ps-relative bs-bb mb-20">
+    <div className="banner_form banner-bg ps-relative bs-bb mb-20">
       <div className="container_banner bs-bb">
         <div className="d-flex w-100 flex-wrap">
           <div className="flex-0-0-50 flex-100-md bs-bb pr-15 pl-15">
@@ -81,7 +81,7 @@ export default function Banner() {
                     I accept the privacy and terms.
                   </label>
                 </div>
-                <button className="form_btn text-white bg-green bs-bb ol-none">
+                <button className="form_btn btn ps-relative index-1 text-white bg-green bs-bb ol-none">
                   Submit Request
                 </button>
               </div>

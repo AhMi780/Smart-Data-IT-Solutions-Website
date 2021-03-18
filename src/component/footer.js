@@ -1,4 +1,7 @@
-import FooterLogo from "./../assets/images/logo-dark.png";
+import FooterLogo from "./../assets/images/logo/logo-dark.png";
+import { FacebookOutlined } from "@ant-design/icons";
+import { InstagramOutlined } from "@ant-design/icons";
+import { TwitterOutlined } from "@ant-design/icons";
 export default function Footer() {
   return (
     <div className="footer bs-bb bg-white">
@@ -14,32 +17,32 @@ export default function Footer() {
               <div className="footer_widget_content">
                 <ul className="li-style-none">
                   <li>
-                    <a href="f" className="no-underline text-grey">
+                    <a href="#" className="no-underline text-grey">
                       About Us
                     </a>
                   </li>
                   <li>
-                    <a href="f" className="no-underline text-grey">
+                    <a href="#" className="no-underline text-grey">
                       Meet Our Team
                     </a>
                   </li>
                   <li>
-                    <a href="f" className="no-underline text-grey">
+                    <a href="#" className="no-underline text-grey">
                       News & Media
                     </a>
                   </li>
                   <li>
-                    <a href="f" className="no-underline text-grey">
+                    <a href="#" className="no-underline text-grey">
                       Case Studies
                     </a>
                   </li>
                   <li>
-                    <a href="f" className="no-underline text-grey">
+                    <a href="#" className="no-underline text-grey">
                       Contacts
                     </a>
                   </li>
                   <li>
-                    <a href="f" className="no-underline text-grey">
+                    <a href="#" className="no-underline text-grey">
                       Investors
                     </a>
                   </li>
@@ -52,32 +55,32 @@ export default function Footer() {
               <div className="footer_widget_content">
                 <ul className="li-style-none">
                   <li>
-                    <a href="f" className="no-underline text-grey">
+                    <a href="#" className="no-underline text-grey">
                       IT Management
                     </a>
                   </li>
                   <li>
-                    <a href="f" className="no-underline text-grey">
+                    <a href="#" className="no-underline text-grey">
                       Cyber Security
                     </a>
                   </li>
                   <li>
-                    <a href="f" className="no-underline text-grey">
+                    <a href="#" className="no-underline text-grey">
                       Cloud Computing
                     </a>
                   </li>
                   <li>
-                    <a href="f" className="no-underline text-grey">
+                    <a href="#" className="no-underline text-grey">
                       IT Consulting{" "}
                     </a>
                   </li>
                   <li>
-                    <a href="f" className="no-underline text-grey">
+                    <a href="#" className="no-underline text-grey">
                       Software Dev
                     </a>
                   </li>
                   <li>
-                    <a href="f" className="no-underline text-grey">
+                    <a href="#" className="no-underline text-grey">
                       IT Support
                     </a>
                   </li>
@@ -89,27 +92,27 @@ export default function Footer() {
               <div className="footer_widget_content">
                 <ul className="li-style-none">
                   <li>
-                    <a href="f" className="no-underline text-grey">
+                    <a href="#" className="no-underline text-grey">
                       Pricing and plans
                     </a>
                   </li>
                   <li>
-                    <a href="f" className="no-underline text-grey">
+                    <a href="#" className="no-underline text-grey">
                       Terms of Service{" "}
                     </a>
                   </li>
                   <li>
-                    <a href="f" className="no-underline text-grey">
+                    <a href="#" className="no-underline text-grey">
                       Help & FAQ{" "}
                     </a>
                   </li>
                   <li>
-                    <a href="f" className="no-underline text-grey">
+                    <a href="#" className="no-underline text-grey">
                       Contact Us{" "}
                     </a>
                   </li>
                   <li>
-                    <a href="f" className="no-underline text-grey">
+                    <a href="#" className="no-underline text-grey">
                       Site map
                     </a>
                   </li>
@@ -141,12 +144,12 @@ export default function Footer() {
       </div>
       <div className="footer_bottom">
         <div className="container container-sm bs-bb">
-          <div className="footer_bottom_content d-flex flex-wrap item-center">
-            <div className="copy_right flex-41 flex-100-sm pl-15 pr-15 bs-bb">
+          <div className="footer_bottom_content d-flex flex-wrap item-center justify-center">
+            <div className="copy_right flex-41 flex-100-sm pl-15 pr-15 bs-bb es-text-center">
               <span className="text-blue">
                 © 2020 Smart Data, All Rights Reserved. With Love by
               </span>
-              <a href="7oroof" className="no-underline text-green">
+              <a href="#" className="no-underline text-green">
                 7oroof.com
               </a>
             </div>
@@ -155,38 +158,44 @@ export default function Footer() {
                 <i className="arrow-up text-center"></i>
               </button>
             </div>
-            <div className="flex-41 flex-100-sm pr-15 pl-15 bs-bb d-flex flex-wrap item-center jutify-content-end">
-              <ul className="social_ul li-style-none d-flex item-center bs-bb">
+            <div className="flex-41 flex-100-sm pr-15 pl-15 bs-bb d-flex flex-wrap es-flex-column item-center jutify-content-end">
+              <ul className="social_ul li-style-none d-flex item-center bs-bb m-10">
                 <li>
                   {" "}
-                  <a href="sd" className="no-underline">
-                    <i className="fb_tag">F</i>
+                  <a href="#" className="no-underline">
+                    <i className="social_tag text-blue trans-3s">
+                      <FacebookOutlined />
+                    </i>
                   </a>{" "}
                 </li>
                 <li>
                   {" "}
-                  <a href="sd" className="no-underline">
-                    <i className="insta_tag">I</i>
+                  <a href="#" className="no-underline">
+                    <i className="social_tag text-blue trans-3s">
+                      <InstagramOutlined />
+                    </i>
                   </a>{" "}
                 </li>
-                <li>
+                <li className="mr-0">
                   {" "}
-                  <a href="sd" className="no-underline">
-                    <i className="twitter_tag">T</i>
+                  <a href="#" className="no-underline">
+                    <i className="social_tag text-blue trans-3s">
+                      <TwitterOutlined />
+                    </i>
                   </a>{" "}
                 </li>
               </ul>
-              <div className="d-flex">
+              <div className="d-flex flex-wrap">
                 <a
-                  className="social_btn no-underline text-blue d-flex justify-center item-center bs-bb"
-                  href="sd"
+                  className="social_btn btn ps-relative index-1 no-underline text-blue d-flex justify-center item-center bs-bb m-10"
+                  href="#"
                 >
                   <i className="icon-apple"></i>
                   <span>Apple Store</span>
                 </a>
                 <a
-                  className="social_btn no-underline text-blue d-flex justify-center item-center bs-bb"
-                  href="sd"
+                  className="social_btn btn ps-relative index-1 no-underline text-blue d-flex justify-center item-center bs-bb m-10"
+                  href="#"
                 >
                   <i className="icon-play-store"></i>
                   <span>Play Store</span>

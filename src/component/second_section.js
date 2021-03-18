@@ -1,4 +1,5 @@
-import about_img from "./../assets/images/2.jpg";
+import about_img from "./../assets/images/second-section-card.jpg";
+import { CheckOutlined } from "@ant-design/icons";
 function Second() {
   return (
     <div className="secon_section w-100">
@@ -41,13 +42,43 @@ function Second() {
             </div>
           </div>
           <div className="flex-0-0-50 flex-100-md pl-15 pr-15 bs-bb">
-            <ul className="second_ul d-flex flex-wrap pr-15 pl-15 text-left">
-              <li>Eliminate Repeat Entry</li>
-              <li>Drive Business Process</li>
-              <li>Structure Data & Docs</li>
-              <li>Simpliy Communication</li>
-              <li>Speed Up Transactions</li>
-              <li>Automate Workflows</li>
+            <ul className="second_ul d-flex flex-wrap pr-15 pl-15 text-left li-style-none">
+              <li>
+                <i className="check_circle d-flex justify-center item-center">
+                  <CheckOutlined />
+                </i>
+                Eliminate Repeat Entry
+              </li>
+              <li>
+                <i className="check_circle d-flex justify-center item-center">
+                  <CheckOutlined />
+                </i>
+                Drive Business Process
+              </li>
+              <li>
+                <i className="check_circle d-flex justify-center item-center">
+                  <CheckOutlined />
+                </i>
+                Structure Data & Docs
+              </li>
+              <li>
+                <i className="check_circle d-flex justify-center item-center">
+                  <CheckOutlined />
+                </i>
+                Simpliy Communication
+              </li>
+              <li>
+                <i className="check_circle d-flex justify-center item-center">
+                  <CheckOutlined />
+                </i>
+                Speed Up Transactions
+              </li>
+              <li>
+                <i className="check_circle d-flex justify-center item-center">
+                  <CheckOutlined />
+                </i>
+                Automate Workflows
+              </li>
             </ul>
           </div>
         </div>

@@ -1,6 +1,8 @@
 import IconServer from "./../assets/images/IT_icons/server.png";
 import IconCyber from "./../assets/images/IT_icons/cyber.png";
 import IconCloud from "./../assets/images/IT_icons/cloud.png";
+import { ArrowRightOutlined } from "@ant-design/icons";
+import { CheckOutlined } from "@ant-design/icons";
 export default function ITsection() {
   return (
     <div className="it_section w-100 bg-gray">
@@ -45,17 +47,37 @@ export default function ITsection() {
                   infrastructure of any civil organization responsible for
                   network and operations which includes data{" "}
                 </p>{" "}
-                <ul className="mb-30 text-blue">
-                  <li>Business IT alignment</li>
-                  <li> IT financial management</li>
-                  <li> IT service management</li>
+                <ul className="mb-30 text-blue li-style-none">
+                  <li>
+                    <i className="check_lined mr-10">
+                      <CheckOutlined />
+                    </i>{" "}
+                    Business IT alignment
+                  </li>
+                  <li>
+                    {" "}
+                    <i className="check_lined mr-10">
+                      <CheckOutlined />
+                    </i>
+                    IT financial management
+                  </li>
+                  <li>
+                    {" "}
+                    <i className="check_lined mr-10">
+                      <CheckOutlined />
+                    </i>
+                    IT service management
+                  </li>
                 </ul>{" "}
                 <a
-                  className="IT_btn d-flex justify-center item-center no-underline"
-                  href="It"
+                  className="IT_btn btn ps-relative index-1 d-flex justify-center item-center no-underline"
+                  href="#"
                 >
                   {" "}
                   <span>Read More</span>{" "}
+                  <i className="icon-arrow-right d-flex justify-center item-center ml-10 d-none">
+                    <ArrowRightOutlined />
+                  </i>{" "}
                 </a>{" "}
               </div>
             </div>
@@ -75,17 +97,37 @@ export default function ITsection() {
                   leader in cybersecurity, cloud, and managed security services
                   and extend your team with leading experts.
                 </p>{" "}
-                <ul className="mb-30 text-blue">
-                  <li>Internet security</li>
-                  <li>Automotive security</li>
-                  <li>Cyberwarfare</li>
+                <ul className="mb-30 text-blue li-style-none">
+                  <li>
+                    {" "}
+                    <i className="check_lined mr-10">
+                      <CheckOutlined />
+                    </i>
+                    Internet security
+                  </li>
+                  <li>
+                    {" "}
+                    <i className="check_lined mr-10">
+                      <CheckOutlined />
+                    </i>
+                    Automotive security
+                  </li>
+                  <li>
+                    <i className="check_lined mr-10">
+                      <CheckOutlined />
+                    </i>{" "}
+                    Cyberwarfare
+                  </li>
                 </ul>{" "}
                 <a
-                  className="IT_btn d-flex justify-center item-center no-underline"
-                  href="It"
+                  className="IT_btn btn ps-relative index-1  d-flex justify-center item-center no-underline"
+                  href="#"
                 >
                   {" "}
                   <span>Read More</span>{" "}
+                  <i className="icon-arrow-right d-flex justify-center item-center ml-10 d-none">
+                    <ArrowRightOutlined />
+                  </i>
                 </a>{" "}
               </div>
             </div>
@@ -105,17 +147,35 @@ export default function ITsection() {
                   resources, especially data storage computing power, without
                   direct active management by the user.
                 </p>{" "}
-                <ul className="mb-30 text-blue">
-                  <li>Private cloud services</li>
-                  <li>Public cloud services</li>
-                  <li>Hybrid cloud services</li>
+                <ul className="mb-30 text-blue li-style-none">
+                  <li>
+                    <i className="check_lined mr-10">
+                      <CheckOutlined />
+                    </i>
+                    Private cloud services
+                  </li>
+                  <li>
+                    <i className="check_lined mr-10">
+                      <CheckOutlined />
+                    </i>
+                    Public cloud services
+                  </li>
+                  <li>
+                    <i className="check_lined mr-10">
+                      <CheckOutlined />
+                    </i>
+                    Hybrid cloud services
+                  </li>
                 </ul>{" "}
                 <a
-                  className="IT_btn d-flex justify-center item-center no-underline"
-                  href="It"
+                  className="IT_btn btn ps-relative index-1 d-flex justify-center item-center no-underline"
+                  href="#"
                 >
                   {" "}
                   <span>Read More</span>{" "}
+                  <i className="icon-arrow-right d-flex justify-center item-center ml-10 d-none">
+                    <ArrowRightOutlined />
+                  </i>
                 </a>{" "}
               </div>
             </div>
@@ -128,7 +188,10 @@ export default function ITsection() {
               >
                 {" "}
                 <span>Explore All Services</span>{" "}
-              </a>
+                <i className="icon-arrow-right d-flex justify-center item-center ml-10">
+                  <ArrowRightOutlined />
+                </i>
+              </a>{" "}
             </div>
           </div>
         </div>

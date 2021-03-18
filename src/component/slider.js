@@ -1,7 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import { ArrowRightOutlined } from "@ant-design/icons";
 export default function SimpleSlider() {
   var settings = {
     dots: false,
@@ -13,8 +13,8 @@ export default function SimpleSlider() {
   };
   return (
     <Slider {...settings} className="slider">
-      <div className="slider_card1">
-        <div className="container container-sm">
+      <div className="slider_card1 ps-relative index-1 overlay">
+        <div className="container container-sm pl-15 pr-15 bs-bb">
           <div className="slide_content_div">
             <h2 className="slide-title">
               We Run All Kinds Of IT Services That Vow Your Success
@@ -24,16 +24,19 @@ export default function SimpleSlider() {
               is changing, and are true partners who care about your success.
               Our team provides a consultative approach on emerging technology.
             </p>
-            <div className="d-flex">
+            <div className="d-flex flex-wrap">
               <a
-                href="aboutus"
-                className="btn-header no-underline bg-green d-flex justify-center item-center text-white mr-30"
+                href="#"
+                className="btn_header btn ps-relative index-1 no-underline bg-green d-flex justify-center item-center text-white mr-30 mb-10"
               >
                 More About Us
+                <i className="icon-arrow-right d-flex justify-center item-center ml-10">
+                  <ArrowRightOutlined />
+                </i>
               </a>
               <a
-                href="services"
-                className="btn-header no-underline bg-white d-flex justify-center item-center text-black"
+                href="#"
+                className="btn_header btn ps-relative index-1 no-underline bg-white d-flex justify-center item-center text-black"
               >
                 Our Services
               </a>
@@ -41,8 +44,8 @@ export default function SimpleSlider() {
           </div>
         </div>
       </div>
-      <div className="slider_card2">
-        <div className="container">
+      <div className="slider_card2 overlay ps-relative index-1">
+        <div className="container container-sm pl-15 pr-15 bs-bb">
           <div className="slide_content_div">
             <h2 className="slide-title">
               Keep Business Safe And Ensure High Availability.{" "}
@@ -52,16 +55,19 @@ export default function SimpleSlider() {
               is changing, and are true partners who care about your success.
               Our team provides a consultative approach on emerging technology.
             </p>
-            <div className="d-flex">
+            <div className="d-flex flex-wrap">
               <a
-                href="aboutus"
-                className="btn-header no-underline bg-green d-flex justify-center item-center text-white mr-30"
+                href="#"
+                className="btn_header btn ps-relative index-1 no-underline bg-green d-flex justify-center item-center text-white mr-30 mb-10"
               >
                 More About Us
+                <i className="icon-arrow-right d-flex justify-center item-center ml-10">
+                  <ArrowRightOutlined />
+                </i>
               </a>
               <a
-                href="services"
-                className="btn-header no-underline bg-white d-flex justify-center item-center text-black"
+                href="#"
+                className="btn_header btn ps-relative index-1 no-underline bg-white d-flex justify-center item-center text-black"
               >
                 Our Services
               </a>

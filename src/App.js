@@ -7,14 +7,13 @@ import TechSection from "./component/tech_section";
 import PortfolioSection from "./component/Portfolio";
 import Banner from "./component/banner_form";
 import Footer from "./component/footer";
+import Btn from "./component/btn_component/btn";
 function App() {
-  const sd = () => {};
   return (
-    <div className="">
-      <div className=" ps-absolute index-1 w-100 ">
-        <Header />
-      </div>
-      <SimpleSlider name={sd} />
+    <div>
+      {/* <Btn name="sara" /> */}
+      <Header />
+      <SimpleSlider />
       <Second />
       <ITsection />
       <TechSection />

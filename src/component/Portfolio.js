@@ -1,6 +1,7 @@
 import Pfc1 from "./../assets/images/1(2).jpg";
 import Pfc2 from "./../assets/images/2(2).jpg";
 import Pfc3 from "./../assets/images/3(2).jpg";
+import { ArrowRightOutlined } from "@ant-design/icons";
 export default function PortfolioSection() {
   return (
     <div className="portfolio_section w-100 pb-40 bg-gray">
@@ -20,16 +21,16 @@ export default function PortfolioSection() {
             </div>
             <div className="pf_card_content bs-bb text-left bg-white">
               <div className="pf_cat text-green">
-                <a className="no-underline text-green " href="as">
+                <a className="no-underline text-green " href="#">
                   Building
                 </a>
                 ,
-                <a className="no-underline text-green" href="as">
+                <a className="no-underline text-green" href="#">
                   Interior
                 </a>
               </div>
               <h4 className="pf_card_title text-blue">
-                <a className="no-underline text-blue" href="as">
+                <a className="no-underline text-blue" href="#">
                   Financial’s Need For Strategic Advisor
                 </a>
               </h4>
@@ -38,8 +39,11 @@ export default function PortfolioSection() {
                 a more proactive role as a strategic advisor, providing support
                 and guidance across all IT topics.{" "}
               </p>
-              <a className="pf_btn no-underline" href="pf_card">
+              <a className="pf_btn no-underline" href="#">
                 <span className="btn_underline text-blue">Read More</span>
+                <i className="icon-arrow-right justify-center item-center d-none ml-10">
+                  <ArrowRightOutlined />
+                </i>
               </a>
             </div>
           </div>
@@ -49,16 +53,16 @@ export default function PortfolioSection() {
             </div>
             <div className="pf_card_content bs-bb text-left bg-white">
               <div className="pf_cat text-green">
-                <a className="no-underline text-green " href="as">
+                <a className="no-underline text-green " href="#">
                   Software
                 </a>
                 ,
-                <a className="no-underline text-green" href="as">
+                <a className="no-underline text-green" href="#">
                   Support
                 </a>
               </div>
               <h4 className="pf_card_title text-blue">
-                <a className="no-underline text-blue" href="as">
+                <a className="no-underline text-blue" href="#">
                   24x7 System Monitoring and Alert Response{" "}
                 </a>
               </h4>
@@ -67,8 +71,11 @@ export default function PortfolioSection() {
                 of selling and activation of their wireless services and
                 devices, and serves as the backbone of the operations.{" "}
               </p>
-              <a className="pf_btn no-underline" href="pf_card">
+              <a className="pf_btn no-underline" href="#">
                 <span className="btn_underline text-blue">Read More</span>
+                <i className="icon-arrow-right justify-center item-center d-none ml-10">
+                  <ArrowRightOutlined />
+                </i>
               </a>
             </div>
           </div>
@@ -78,16 +85,16 @@ export default function PortfolioSection() {
             </div>
             <div className="pf_card_content bs-bb text-left bg-white">
               <div className="pf_cat text-green">
-                <a className="no-underline text-green " href="as">
+                <a className="no-underline text-green " href="#">
                   Management
                 </a>
                 ,
-                <a className="no-underline text-green" href="as">
+                <a className="no-underline text-green" href="#">
                   Cloud
                 </a>
               </div>
               <h4 className="pf_card_title text-blue">
-                <a className="no-underline text-blue" href="as">
+                <a className="no-underline text-blue" href="#">
                   Nonprofit Organization Utilized Security{" "}
                 </a>
               </h4>
@@ -96,8 +103,11 @@ export default function PortfolioSection() {
                 organization’s “normal.” We came on board with the objective of
                 stabilizing the environment, assisting{" "}
               </p>
-              <a className="pf_btn no-underline" href="pf_card">
+              <a className="pf_btn no-underline" href="#">
                 <span className="btn_underline text-blue">Read More</span>
+                <i className="icon-arrow-right justify-center item-center d-none ml-10">
+                  <ArrowRightOutlined />
+                </i>
               </a>
             </div>
           </div>

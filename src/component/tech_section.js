@@ -1,10 +1,10 @@
-import { icon } from "@fortawesome/fontawesome-svg-core";
 import Icon1 from "./../assets/images/icon1.png";
 import Icon2 from "./../assets/images/icon2.png";
 import Icon3 from "./../assets/images/icon3.png";
 import Icon4 from "./../assets/images/icon4.png";
-import Tech from "./../assets/images/4.jpg";
-
+import Tech from "./../assets/images/office_colab.jpg";
+import { ArrowRightOutlined } from "@ant-design/icons";
+import { CheckOutlined } from "@ant-design/icons";
 export default function TechSection() {
   return (
     <div className="tech_section w-100 ps-relative">
@@ -25,8 +25,8 @@ export default function TechSection() {
                 engineers and IT support staff are ready to help.
               </p>
               <a
-                className="tech_btn no-underline d-flex justify-center item-center text-white bg-green mt-30 mb-30"
-                href="sk"
+                className="tech_btn btn ps-relative index-1 no-underline d-flex justify-center item-center text-white bg-green mt-30 mb-30"
+                href="#"
               >
                 <span>Our Pricing</span>
               </a>
@@ -42,24 +42,29 @@ export default function TechSection() {
         </div>
         <div className="tech_card_box d-flex flex-wrap-md">
           <div className="flex-25 flex-50-md flex-100-es pl-15 pr-15 bs-bb">
-            <div className="tech_card mb-30 d-flex flex-column text-center-md">
+            <div className="tech_card ps-relative index-1 btn mb-30 d-flex flex-column text-center">
               <div className="feature_icon align-self-center">
-                <img src={Icon1} alt="icon" />
+                <img className="w-100 h-100" src={Icon1} alt="icon" />
               </div>
               <h4 className="tech_feature_title text-white">Software Asset</h4>
               <p className="tech_feature_desc text-white mb-15">
                 All aspects of your software assets including purchasing,
                 deployment & maintenance.
               </p>
-              <a className="no-underline align-self-center " href="arrow">
-                =x
+              <a
+                className=" feature_arrow no-underline align-self-center  "
+                href="#"
+              >
+                <i className="icon-arrow-right d-flex justify-center item-center">
+                  <ArrowRightOutlined />
+                </i>
               </a>
             </div>
           </div>
           <div className="flex-25 flex-50-md flex-100-es pl-15 pr-15 bs-bb">
-            <div className="tech_card mb-30 d-flex flex-column text-center-md">
+            <div className="tech_card ps-relative index-1 btn mb-30 d-flex flex-column text-center">
               <div className="feature_icon align-self-center">
-                <img src={Icon2} alt="icon" />
+                <img className="w-100 h-100" src={Icon2} alt="icon" />
               </div>
               <h4 className="tech_feature_title text-white">
                 Privileged Access
@@ -68,15 +73,20 @@ export default function TechSection() {
                 Extend proven Tech best practices to HR, finance, and other
                 service delivery areas.
               </p>
-              <a className="no-underline align-self-center " href="arrow">
-                =x
+              <a
+                className=" feature_arrow no-underline align-self-center  "
+                href="#"
+              >
+                <i className="icon-arrow-right d-flex justify-center item-center">
+                  <ArrowRightOutlined />
+                </i>
               </a>
             </div>
           </div>
           <div className="flex-25 flex-50-md flex-100-es pl-15 pr-15 bs-bb">
-            <div className="tech_card mb-30 d-flex flex-column text-center-md">
+            <div className="tech_card ps-relative index-1 btn mb-30 d-flex flex-column text-center">
               <div className="feature_icon align-self-center">
-                <img src={Icon3} alt="icon" />
+                <img className="w-100 h-100" src={Icon3} alt="icon" />
               </div>
               <h4 className="tech_feature_title text-white">
                 Software License
@@ -85,15 +95,20 @@ export default function TechSection() {
                 Build dynamic request templates with associated workflows, and
                 tasks.
               </p>
-              <a className="no-underline align-self-center " href="arrow">
-                =x
+              <a
+                className=" feature_arrow no-underline align-self-center  "
+                href="#"
+              >
+                <i className="icon-arrow-right d-flex justify-center item-center">
+                  <ArrowRightOutlined />
+                </i>
               </a>
             </div>
           </div>
           <div className="flex-25 flex-50-md flex-100-es pl-15 pr-15 bs-bb">
-            <div className="tech_card mb-30 d-flex flex-column text-center-md">
+            <div className="tech_card ps-relative index-1 btn mb-30 d-flex flex-column text-center">
               <div className="feature_icon align-self-center">
-                <img src={Icon4} alt="icon" />
+                <img className="w-100 h-100" src={Icon4} alt="icon" />
               </div>
               <h4 className="tech_feature_title text-white">
                 Enterprise Service
@@ -102,8 +117,13 @@ export default function TechSection() {
                 Our technology allows you to offer the latest software to your
                 possible customers!
               </p>
-              <a className="no-underline align-self-center " href="arrow">
-                =x
+              <a
+                className=" feature_arrow no-underline align-self-center  "
+                href="#"
+              >
+                <i className="icon-arrow-right d-flex justify-center item-center">
+                  <ArrowRightOutlined />
+                </i>
               </a>
             </div>
           </div>
@@ -128,18 +148,38 @@ export default function TechSection() {
                   120 engineers and IT support staff are ready to help.
                 </p>
                 <a
-                  className="tech_btn no-underline d-flex justify-center item-center mb-30 text-green"
-                  href="tech"
+                  className="tech_btn_bottom no-underline d-flex justify-center item-center mb-30 text-green"
+                  href="#"
                 >
                   <span>Request Demo</span>
                 </a>
               </div>
               <div className="flex-0-0-50 flex-100-es pl-15 pr-15 bs-bb">
-                <ul className="tech_ul bs-bb mb-30 bs-bb text-blue text-white-md">
-                  <li>450,000 client’s interactions </li>
-                  <li>Help challenge critical activities</li>
-                  <li>Simplify & Automate Workflows</li>
-                  <li>Peer perspectives and advice</li>
+                <ul className="tech_ul bs-bb mb-30 bs-bb text-blue text-white-md li-style-none">
+                  <li>
+                    <i className="check_lined mr-10">
+                      <CheckOutlined />
+                    </i>
+                    450,000 client’s interactions{" "}
+                  </li>
+                  <li>
+                    <i className="check_lined mr-10">
+                      <CheckOutlined />
+                    </i>
+                    Help challenge critical activities
+                  </li>
+                  <li>
+                    <i className="check_lined mr-10">
+                      <CheckOutlined />
+                    </i>
+                    Simplify & Automate Workflows
+                  </li>
+                  <li>
+                    <i className="check_lined mr-10">
+                      <CheckOutlined />
+                    </i>
+                    Peer perspectives and advice
+                  </li>
                 </ul>
               </div>
             </div>
