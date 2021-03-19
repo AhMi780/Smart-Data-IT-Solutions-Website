@@ -283,6 +283,7 @@
   background-color: #f9f9f9;
 }
 /* Modifieres */
+
 .trans-3s {
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
@@ -372,7 +373,7 @@
 @media screen and (min-width: 1440px) {
   .container-lg {
     margin: auto;
-    max-width: 1200px;
+    max-width: 1440px;
     width: 100%;
   }
 }
@@ -799,6 +800,24 @@ nav {
 }
 .pf_heading_box {
   margin-bottom: 50px;
+}
+.pf_card_img {
+  max-width: 370px;
+  max-height: 370px;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+.pf_card_img img {
+  transition: 0.6s;
+  object-position: center;
+}
+.pf_card:hover .pf_card_img img {
+  object-fit: cover;
+  width: 107%;
+  height: 107%;
+  transition: 0.6s;
+  object-position: center;
+  background-position: center;
 }
 .heading_line {
   background-color: #0772ba;
