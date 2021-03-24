@@ -8,18 +8,20 @@ import PortfolioSection from "./component/Portfolio";
 import Banner from "./component/banner_form";
 import Footer from "./component/footer";
 import Btn from "./component/btn_component/btn";
+import { HashRouter, Route } from "react-router-dom";
 function App() {
   return (
     <div>
-      {/* <Btn name="sara" /> */}
-      <Header />
-      <SimpleSlider />
-      <Second />
-      <ITsection />
-      <TechSection />
-      <PortfolioSection />
-      <Banner />
-      <Footer />
+      <HashRouter>
+        <Header />
+        <SimpleSlider />
+        <Second />
+        <ITsection />
+        <TechSection />
+        <PortfolioSection />
+        <Banner />
+        <Footer />
+      </HashRouter>
     </div>
   );
 }

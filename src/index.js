@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import Header from "./component/header";
+import Footer from "./component/footer";
 
 ReactDOM.render(
   <React.StrictMode>

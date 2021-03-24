@@ -1,6 +1,6 @@
-import Pfc1 from "./../assets/images/1(2).jpg";
-import Pfc2 from "./../assets/images/2(2).jpg";
-import Pfc3 from "./../assets/images/3(2).jpg";
+import Pfc1 from "./../assets/images/pf_1.jpg";
+import Pfc2 from "./../assets/images/pf_2.jpg";
+import Pfc3 from "./../assets/images/pf_3.jpg";
 import { ArrowRightOutlined } from "@ant-design/icons";
 export default function PortfolioSection() {
   return (
@@ -14,8 +14,8 @@ export default function PortfolioSection() {
           </div>
           <h3 className="title text-blue text-left">Latest Case Studies</h3>
         </div>
-        <div className=" pf_card_box d-flex flex-wrap-md justify-center">
-          <div className="pf_card flex-30 flex-46-md flex-100-es">
+        <div className=" pf_card_box d-flex flex-wrap-md justify-center pl-15 pr-15">
+          <div className="pf_card flex-30 flex-46-md flex-100-sm">
             <div className="pf_card_img">
               <img className="w-100 h-100" src={Pfc1} alt="pf"></img>
             </div>
@@ -47,7 +47,7 @@ export default function PortfolioSection() {
               </a>
             </div>
           </div>
-          <div className="pf_card flex-30 flex-46-md flex-100-es">
+          <div className="pf_card flex-30 flex-46-md flex-100-sm">
             <div className="pf_card_img">
               <img className="w-100 h-100" src={Pfc2} alt="pf"></img>
             </div>
@@ -79,7 +79,7 @@ export default function PortfolioSection() {
               </a>
             </div>
           </div>
-          <div className="pf_card flex-30 flex-46-md flex-100-es">
+          <div className="pf_card flex-30 flex-46-md flex-100-sm">
             <div className="pf_card_img">
               <img className="w-100 h-100" src={Pfc3} alt="pf"></img>
             </div>

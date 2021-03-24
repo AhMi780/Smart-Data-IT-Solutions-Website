@@ -802,20 +802,19 @@ nav {
   margin-bottom: 50px;
 }
 .pf_card_img {
-  max-width: 370px;
   max-height: 370px;
   overflow: hidden;
   overflow-y: hidden;
 }
 .pf_card_img img {
-  transition: 0.6s;
+  transition: transform 0.5s ease;
   object-position: center;
+  height: 370px;
+  object-fit: cover;
 }
 .pf_card:hover .pf_card_img img {
-  object-fit: cover;
-  width: 107%;
-  height: 107%;
-  transition: 0.6s;
+  transform: scale(1.2);
+  transition: transform 0.5s ease;
   object-position: center;
   background-position: center;
 }
